@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2f6aa4;
+}
+
+.weather-card{
+    margin: 0 auto;
+    position: relative;
+    padding: 30px 50px;
+    width: 700px;
+    height: 300px;
+    background-color: rgba(139, 211, 247, 0.718);
+    border-radius: 30px;
+    margin-top: 30px;
+    box-shadow: 0px 5px 10px;
+}
+.city{
+    font-family: 'Neuton', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.temp{
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.feels-like{
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.wind{
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.weather-card__weather-icon img{
+    width: 100px;
+}
+.weather-card__flag-icon{
+    margin-top: 100%;
+}
+.weather-card__data input{
+    width: 150px;
+    position: absolute;
+    left: -400px;
+    top: 0px;
+}
+
+
+.weather-card__space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.weather-card__center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
